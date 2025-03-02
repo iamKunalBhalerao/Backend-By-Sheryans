@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/iamKunalBhalerao/Backend-By-Sheryans#readme",
   "dependencies": {
-    "cat-me": "^1.0.3"
+    "cat-me": "^1.0.3",
+    "express": "^4.21.2"
   }
 }
