@@ -9,6 +9,24 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/about", (req, res) => {
+  res.json({
+    message: "This is about Page",
+  });
+});
+
+app.get("/profile", (req, res) => {
+  res.json({
+    message: "This is Profile Page",
+  });
+});
+
+app.post("/signin", (req, res) => {
+  res.json({
+    message: "This is POST request Page",
+  });
+});
+
 app.listen(3000, () => {
   console.log("server is on PORT:3000");
 });
