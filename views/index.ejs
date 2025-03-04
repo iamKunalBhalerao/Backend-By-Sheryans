@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejs with Express</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>This is SignUp Form</h1>
 
-    <form>
+    <form action="/form-data" , method="post">
         <p>Username : </p>
         <input type="text" name="name" id="name" placeholder="Enter your Name">
         <br>
         <p>Email : </p>
         <input type="email" name="email" id="email" placeholder="Enter your Email">
+        <br>
+        <p>Password : </p>
+        <input type="password" name="password" id="password" placeholder="Enter your Password">
+        <br>
+        <button>Submit</button>
     </form>
 </body>
 
